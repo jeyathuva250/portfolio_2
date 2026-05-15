@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Database, Server, Code, Activity, MapPin, GraduationCap, Mail, Phone, ExternalLink } from 'lucide-react';
+import { ArrowUpRight, Database, Server, Code, Activity, MapPin, GraduationCap, Mail, Phone, ExternalLink, Smartphone } from 'lucide-react';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -27,6 +27,14 @@ export default function Dashboard() {
       icon: Database,
       tech: ['Spring Boot', 'React', 'Flask', 'MySQL', 'GPT-4o-mini'],
       color: 'var(--accent-blue)'
+    },
+    { 
+      name: 'HMS Mobile App', 
+      desc: 'Full-stack React Native ecosystem with Express.js backend and MongoDB data orchestration.', 
+      path: '/hms-mobile', 
+      icon: Smartphone,
+      tech: ['React Native', 'Node.js', 'Express', 'MongoDB'],
+      color: 'var(--accent-purple)'
     },
     { 
       name: 'SportsX Identity', 
@@ -56,7 +64,7 @@ export default function Dashboard() {
 
   const skillGroups = [
     { name: 'Backend Frameworks', items: ['Spring Boot', 'Node.js', 'Express', 'Flask', 'REST API Design', 'JWT Authentication'] },
-    { name: 'Frontend Development', items: ['React', 'Next.js', 'Tailwind CSS', 'Redux', 'Material UI', 'Framer Motion', 'Responsive Design'] },
+    { name: 'Frontend Development', items: ['React', 'Next.js', 'React Native', 'Expo', 'Tailwind CSS', 'Redux', 'Material UI', 'Framer Motion', 'Responsive Design'] },
     { name: 'AI / ML', items: ['Scikit-learn', 'NumPy', 'Pandas', 'Matplotlib', 'TensorFlow (basic)'] },
     { name: 'Languages', items: ['Java', 'Python', 'C', 'JavaScript'] },
     { name: 'Databases', items: ['MySQL', 'MongoDB', 'MS SQL Server', 'T-SQL'] },

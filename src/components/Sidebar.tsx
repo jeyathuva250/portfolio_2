@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Activity, Database, Home, Server, Code, Mail, Phone, ExternalLink, Cpu, Menu, X } from 'lucide-react';
+import { Activity, Database, Home, Server, Code, Mail, Phone, ExternalLink, Cpu, Menu, X, Smartphone } from 'lucide-react';
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,6 +11,7 @@ export default function Sidebar() {
     { name: 'Overview', path: '/', icon: Home },
     { name: 'Technical Arsenal', path: '/skills', icon: Cpu },
     { name: 'Hospital System', path: '/hospital', icon: Database },
+    { name: 'HMS Mobile App', path: '/hms-mobile', icon: Smartphone },
     { name: 'SportsX Identity', path: '/sportsx', icon: Server },
     { name: 'Viva Pizzeria', path: '/viva', icon: Code },
     { name: 'Flight Delay AI', path: '/flight-delay', icon: Activity },

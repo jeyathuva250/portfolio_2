@@ -23,7 +23,7 @@ export default function Skills() {
       name: 'Frontend Development', 
       icon: Layout,
       color: 'var(--accent-yellow)',
-      items: ['React', 'Next.js', 'Tailwind CSS', 'Redux', 'Material UI', 'Framer Motion', 'Responsive Design'] 
+      items: ['React', 'Next.js', 'React Native', 'Tailwind CSS', 'Redux', 'Material UI', 'Framer Motion', 'Responsive Design'] 
     },
     { 
       name: 'AI / Machine Learning', 

@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# Engineering Systems Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, engineering-themed portfolio dashboard designed to showcase full-stack development, AI/ML integration, and system architecture expertise. Built with React, TypeScript, and Framer Motion for a premium, interactive user experience.
 
-Currently, two official plugins are available:
+## 🚀 Featured Projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### [HMS Mobile App](/hms-mobile)
+A modern full-stack Hospital Management mobile application developed using React Native with Expo.
+- **Tech Stack**: React Native, Expo, Node.js, Express, MongoDB.
+- **Key Features**: Secure JWT authentication, patient/hospital data management, mobile-first responsive UI.
 
-## React Compiler
+### [Hospital OPD System](/hospital)
+N-tier architecture medical platform bridging administrative flows with AI inference.
+- **Tech Stack**: Spring Boot, React, Flask, MySQL, GPT-4o-mini.
+- **Highlights**: Role-based access control, AI-driven symptom analysis, concurrent booking management.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### [SportsX Identity](/sportsx)
+High-integrity identity management system with concurrent update consistency.
+- **Tech Stack**: Java, Spring Boot, MySQL, React.
+- **Focus**: Distributed consistency, database triggers, and secure identity orchestration.
 
-## Expanding the ESLint configuration
+### [Flight Delay AI](/flight-delay)
+Predictive analytics pipeline for aviation delay forecasting.
+- **Tech Stack**: Python, Scikit-learn, Pandas, NumPy.
+- **Outcome**: 89% accuracy on imbalanced aviation datasets using Random Forest classifiers.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### [Viva Pizzeria](/viva)
+Premium restaurant commerce platform with optimized micro-interactions.
+- **Tech Stack**: Next.js, React, Tailwind CSS, Framer Motion.
+- **Focus**: Performance optimization and high-fidelity UI/UX.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Technical Arsenal
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Backend & Infrastructure
+- **Frameworks**: Spring Boot, Node.js, Express, Flask.
+- **Security**: JWT, RBAC, OAuth2 (Basic).
+- **Architecture**: Microservices, N-tier, RESTful API design.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Frontend & Mobile
+- **Core**: React, Next.js, TypeScript.
+- **Mobile**: React Native, Expo.
+- **Styling**: Tailwind CSS, Framer Motion, Vanilla CSS.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### AI / Machine Learning
+- **Libraries**: Scikit-learn, NumPy, Pandas, Matplotlib.
+- **Models**: Random Forest, Linear Regression, LLM Integration (GPT-4o).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Databases
+- **Relational**: MySQL, MS SQL Server, PostgreSQL.
+- **NoSQL**: MongoDB.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 💻 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jeyathuva250/portfolio_2.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📄 License
+This project is for personal portfolio demonstration purposes.

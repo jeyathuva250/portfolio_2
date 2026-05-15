@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
 import HospitalSystem from './pages/HospitalSystem';
+import HMSMobileApp from './pages/HMSMobileApp';
 import IdentityIssuing from './pages/IdentityIssuing';
 import VivaPizzeria from './pages/VivaPizzeria';
 import FlightDelay from './pages/FlightDelay';
@@ -23,6 +24,7 @@ export default function App() {
           <Route index element={<Dashboard />} />
           <Route path="skills" element={<Skills />} />
           <Route path="hospital" element={<HospitalSystem />} />
+          <Route path="hms-mobile" element={<HMSMobileApp />} />
           <Route path="sportsx" element={<IdentityIssuing />} />
           <Route path="viva" element={<VivaPizzeria />} />
           <Route path="flight-delay" element={<FlightDelay />} />
